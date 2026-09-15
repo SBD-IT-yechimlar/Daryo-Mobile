@@ -1,0 +1,39 @@
+import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:injectable/injectable.dart';
+import 'package:daryo/presentation/support/cubit/base_cubit.dart';
+import 'package:daryo/data/repositories/auth_repository.dart';
+
+part 'reset_password_cubit.freezed.dart';
+part 'reset_password_state.dart';
+
+@injectable
+class ResetPasswordCubit extends BaseCubit<ResetPasswordState, ResetPasswordEvent> {
+  ResetPasswordCubit(this._authRepository) : super(ResetPasswordState());
+
+  final AuthRepository _authRepository;
+
+  void setPassword(String password) {
+    updateState((state) => state.copyWith(password: password));
+    enable();
+  }
+
+  void setRepeatPassword(String repeatPassword) {
+    updateState((state) => state.copyWith(
+          repeatPassword: repeatPassword,
+        ));
+    enable();
+  }
+
+  void enable() {
+    logger
+        .w("password= ${states.password}, repeatPass=${states.repeatPassword}");
+    updateState(
+      (state) => state.copyWith(
+        enabled: ((state.password.length >= 8) &&
+            (state.repeatPassword.length >= 8) &&
+            (state.password == state.repeatPassword)),
+      ),
+    );
+  }
+
+}

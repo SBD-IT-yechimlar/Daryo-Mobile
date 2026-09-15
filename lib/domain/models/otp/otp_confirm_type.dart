@@ -1,0 +1,4 @@
+enum OtpConfirmType {
+  forRegister,
+  forResetPassword,
+}

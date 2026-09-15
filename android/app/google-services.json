@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "121171774335",
+    "project_id": "daryo-9be53",
+    "storage_bucket": "daryo-9be53.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121171774335:android:aeedf1d4e98ffb4417e84a",
+        "android_client_info": {
+          "package_name": "uz.muloqot.daryo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121171774335-20ct07ilclsh9l8f1mbiqd880ck1mjm3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uz.muloqot.daryo",
+            "certificate_hash": "897008d922d6e93ff26950ac694bdb5f5b9e23aa"
+          }
+        },
+        {
+          "client_id": "121171774335-5ln1e6en0fq5n5lotn694m3jnmlu922j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uz.muloqot.daryo",
+            "certificate_hash": "d5652a3ea6e8b2c298c149fec7019412224805c3"
+          }
+        },
+        {
+          "client_id": "121171774335-mlgmgklmqqq00h6sq1ar4ij0iopokmfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR2lozaMiRdWtUfpDoV0W5rRmDPHJre7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121171774335-mlgmgklmqqq00h6sq1ar4ij0iopokmfb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "121171774335-6ni3rou4egk34rcbbfnlk1tnv2micv4c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "uz.muloqot.daryo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,3 @@
+# Daryo-Mobile
+
+Figma: https://www.figma.com/file/BLBEOyuhKsiB1NwHDY8mh2/Online-Bazar?type=design&node-id=1329-3710&mode=design&t=4xPSedqYRyHEpZkY-0
