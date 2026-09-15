@@ -21,7 +21,7 @@ Daryo.uz yangiliklar portalining Flutter'da yozilgan mobil ilovasi (Android va i
 | Soha | Kutubxonalar |
 | --- | --- |
 | State management | `flutter_bloc`, `bloc`, `freezed` |
-| DI | `get_it`, `injectable` |
+| DI | `get_it` |
 | Navigatsiya | `auto_route` |
 | Tarmoq | `dio`, `pretty_dio_logger` |
 | Lokal ma'lumotlar | `floor`, `sqflite` |
